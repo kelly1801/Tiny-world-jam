@@ -1,0 +1,73 @@
+
+## Access Modifier Rules
+
+### 1. **Minimize the Use of `public`**
+
+   - Avoid using the `public` access modifier unless it's absolutely necessary for an element to be accessible from outside the class or assembly.
+   - Use the principle of encapsulation to limit direct access to class members. Encapsulate and provide controlled access via properties or methods where appropriate.
+
+### 2. **Use `private` by Default**
+
+   - Class members (variables, methods, properties) should default to `private` access unless they need to be accessed from outside the class.
+   - `private` members are encapsulated within the class and are not accessible from other classes.
+
+### 3. **Consider `protected` for Inheritance**
+
+   - Use the `protected` access modifier when you want to make members accessible to derived classes but not to the general public.
+   - Ensure that the use of `protected` aligns with the design and inheritance structure.
+
+### 4. **Avoid `protected internal`**
+
+   - Be cautious when using the `protected internal` modifier, as it combines the accessibility of both `protected` and `internal`. Only use it when you specifically need that combination of access.
+
+### 5. **Use Properties for Controlled Access**
+
+   - Prefer using properties with appropriate access modifiers (`public`, `private`, `protected`) for controlled access to class fields.
+   - Properties allow you to encapsulate and control access to variables and ensure data integrity.
+
+### 7. **Limit `public static` Members**
+
+   - Limit the use of `public static` members, especially fields, as they can introduce global state and make code harder to maintain.
+   - Consider alternatives like dependency injection and encapsulation for managing shared data.
+
+### 8. **Be Mindful of Unity's Serialization**
+
+   - In Unity, fields that need to be serialized and exposed in the Inspector should be marked as `[SerializeField]`.
+   - Ensure that only the necessary fields are exposed for Inspector editing.
+
+### 9. **Review and Refactor Public Members**
+
+   - Regularly review and refactor the use of `public` members to ensure that they are genuinely necessary.
+
+## Example Usage:
+
+```csharp
+public class PlayerController
+{
+    // Only necessary fields are public or serialized.
+    public float movementSpeed;
+    public int playerHealth;
+
+    // Use properties for controlled access.
+    public int PlayerScore { get; private set; }
+
+    // Methods and properties control access to private variables.
+    private bool isRunning;
+
+    public void StartRunning()
+    {
+        isRunning = true;
+    }
+
+    public void StopRunning()
+    {
+        isRunning = false;
+    }
+
+    // Only necessary for derived classes.
+    protected void SpecialAbility()
+    {
+        // Implementation here
+    }
+}
+```
