@@ -6,13 +6,23 @@ public class PlayerPickUp : MonoBehaviour
 {
     public Inventory inventory;
 
-    private void OnCollisionEnter(Collision hit)
+    private void OnTriggerEnter(Collider hit)
     {
-        InventoryItemBase item = hit.collider.GetComponent<InventoryItemBase>();
+        InventoryItemBase item = hit.GetComponent<InventoryItemBase>();
 
         if (item != null)
         {
             inventory.AddItem(item);
         }
     }
+
+    //private void OnCollisionEnter(Collision hit)
+    //{
+    //    InventoryItemBase item = hit.collider.GetComponent<InventoryItemBase>();
+
+    //    if (item != null)
+    //    {
+    //        inventory.AddItem(item);
+    //    }
+    //}
 }
