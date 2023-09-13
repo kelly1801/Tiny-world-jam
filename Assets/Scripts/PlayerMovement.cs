@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private float xMov, zMov;
     public float speed = 5.0f;
     private float delay = 3.0f;
+    public float jumpForce = 50000.0f;
 
     private float nextTime;
     private float currentTime;
@@ -24,7 +25,8 @@ public class PlayerMovement : MonoBehaviour
 
     // Bools
     public bool isTiny = false;
-    [SerializeField] private bool isPauseMenuDisplay = false;
+    private bool isPauseMenuDisplay = false;
+    [SerializeField] private bool isGrounded;
 
     // Gameobjects to interact with
     [SerializeField] private GameObject pauseMenu;
@@ -57,6 +59,11 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Escape) && isPauseMenuDisplay == true)
         {
             DeactiveMenu();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
+        {
+            Jumping();
         }
     }
 
@@ -98,6 +105,26 @@ public class PlayerMovement : MonoBehaviour
             pauseMenu.SetActive(false);
             isPauseMenuDisplay = false;
             Time.timeScale = 1.0f;
+    }
+
+    void Jumping()
+    {
+        rb.AddForce(transform.up * jumpForce *  Time.deltaTime);
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }
     
