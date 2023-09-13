@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0f6a82bb67aead418dbc92cedd22922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 114124467939718072, guid: 3b115c80330774542bbcc88497e7c821, type: 3}
   MessagePanel: {fileID: 1110487696105504}
 --- !u!95 &95976927383937146
 Animator:

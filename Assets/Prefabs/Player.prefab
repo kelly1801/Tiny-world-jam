@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 5950734209682795518}
   - component: {fileID: 2840033395475052242}
   - component: {fileID: 1111621365592057910}
+  - component: {fileID: 1683282240497783061}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -213,10 +214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c10808c84f77b4682da6a0e72ae59b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMov: 0
-  zMov: 0
   speed: 5
-  rb: {fileID: 5950734209682795518}
+  isTiny: 0
+  isPauseMenuDisplay: 0
+  pauseMenu: {fileID: 0}
 --- !u!114 &1111621365592057910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +230,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4636bdbaa6696645bb4997b91daa397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
+  inventory: {fileID: 114124467939718072, guid: 3b115c80330774542bbcc88497e7c821, type: 3}
   hand: {fileID: 4581871204438350904}
-  hud: {fileID: 0}
+  hud: {fileID: 114894058241734744, guid: a48c57f357c39a34d93baeaefb401731, type: 3}
+--- !u!114 &1683282240497783061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7522905510896838479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78faf765a016edd4d966a4db93b715fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxOxygenLevel: 100
+  oxygenBar: {fileID: 0}
+  decreaseLevel: 2
