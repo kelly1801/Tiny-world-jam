@@ -13,17 +13,22 @@ public class PlayerMovement : MonoBehaviour
 
     private float nextTime;
     private float currentTime;
+
     // Components
     private Rigidbody rb;
     private Transform tr;
+
     // Vectors
     private Vector3 tinyScale = new(0.5f, 0.5f, 0.5f);
     private Vector3 originalScale;
+
     // Bools
     [SerializeField] private bool isTiny = false;
     [SerializeField] private bool isPauseMenuDisplay = false;
+
     // Gameobjects to interact with
     [SerializeField] private GameObject pauseMenu;
+    
     // Others
 
 
@@ -32,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         tr = GetComponent<Transform>();
         originalScale = transform.localScale;
+        Time.timeScale = 1.0f;
     }
 
     private void Update()
