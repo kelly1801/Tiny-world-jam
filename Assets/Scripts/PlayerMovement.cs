@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Gameobjects to interact with
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject Planet1;
     
     // Others
 
