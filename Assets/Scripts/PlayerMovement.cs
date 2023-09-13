@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using Unity.PlasticSCM.Editor.WebApi;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -10,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private float xMov, zMov;
     public float speed = 5.0f;
     private float delay = 3.0f;
+    public float jumpForce = 50000.0f;
+    public float gradeMultiply;
 
     private float nextTime;
     private float currentTime;
@@ -21,14 +24,20 @@ public class PlayerMovement : MonoBehaviour
     // Vectors
     private Vector3 tinyScale = new(0.5f, 0.5f, 0.5f);
     private Vector3 originalScale;
+    private Vector3 moveInput;
+
+    // Quater
+    Quaternion rotateInput;
 
     // Bools
     public bool isTiny = false;
-    [SerializeField] private bool isPauseMenuDisplay = false;
+    private bool isPauseMenuDisplay = false;
+    [SerializeField] private bool isGrounded;
 
     // Gameobjects to interact with
     [SerializeField] private GameObject pauseMenu;
-    
+    [SerializeField] private GameObject Planet1;
+
     // Others
 
 
@@ -43,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         currentTime += Time.deltaTime;
+        GravityPhysics();
 
         if (Input.GetKeyDown(KeyCode.G) && currentTime >= nextTime)
         {
@@ -58,6 +68,21 @@ public class PlayerMovement : MonoBehaviour
         {
             DeactiveMenu();
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
+        {
+            Jumping();
+        }
+
+
+
+
+
+
+
+
+
+
     }
 
     private void FixedUpdate()
@@ -69,7 +94,10 @@ public class PlayerMovement : MonoBehaviour
     {
         xMov = Input.GetAxisRaw("Horizontal");
         zMov = Input.GetAxisRaw("Vertical");
-        rb.velocity = new Vector3(xMov * speed, rb.velocity.y, zMov * speed);
+        moveInput = new Vector3(xMov, moveInput.y, zMov);
+        Vector3 directionToMove = rb.transform.rotation * moveInput;
+        rotateInput = Quaternion.Euler(rotateInput.x, xMov * gradeMultiply, rotateInput.z);
+        rb.velocity = (directionToMove * speed);
     }
     void ChangingLocalScale()
     {
@@ -98,6 +126,32 @@ public class PlayerMovement : MonoBehaviour
             pauseMenu.SetActive(false);
             isPauseMenuDisplay = false;
             Time.timeScale = 1.0f;
+    }
+
+    void Jumping()
+    {
+        rb.AddForce(transform.up * jumpForce *  Time.deltaTime);
+    }
+
+    void GravityPhysics()
+    {
+        Physics.gravity = Planet1.transform.position - transform.position;
+        transform.rotation = Quaternion.FromToRotation(transform.up, -Physics.gravity) * transform.rotation;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }
     
