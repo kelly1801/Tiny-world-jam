@@ -21,6 +21,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 originalScale;
     // Bools
     [SerializeField] private bool isTiny = false;
+    [SerializeField] private bool isPauseMenuDisplay = false;
+    // Gameobjects to interact with
+    [SerializeField] private GameObject pauseMenu;
+    // Others
 
 
     private void Start()
@@ -28,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         tr = GetComponent<Transform>();
         originalScale = transform.localScale;
-        Debug.Log(transform.localScale);
     }
 
     private void Update()
@@ -39,6 +42,15 @@ public class PlayerMovement : MonoBehaviour
         {
             ChangingLocalScale();
             nextTime = currentTime + delay;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape) && isPauseMenuDisplay == false)
+        {
+            ActiveMenu();
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && isPauseMenuDisplay == true)
+        {
+            DeactiveMenu();
         }
     }
 
@@ -65,6 +77,20 @@ public class PlayerMovement : MonoBehaviour
             tr.localScale = originalScale;
             isTiny = false;
         }
+    }
+
+    void ActiveMenu()
+    {
+            pauseMenu.SetActive(true);
+            isPauseMenuDisplay = true;
+            Time.timeScale = 0.0f;
+    }
+
+    public void DeactiveMenu()//MANDATORY TIENE QUE SER PUBLICO O SI NO UI RESUME BUTTON NO FUNCIONA.
+    {
+            pauseMenu.SetActive(false);
+            isPauseMenuDisplay = false;
+            Time.timeScale = 1.0f;
     }
 }
     
