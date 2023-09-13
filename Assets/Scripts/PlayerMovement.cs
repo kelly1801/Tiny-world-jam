@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // Variables
     private float xMov, zMov;
-    [SerializeField] private float speed = 5.0f;
+    public float speed = 5.0f;
     private float delay = 3.0f;
 
     private float nextTime;
@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 tinyScale = new(0.5f, 0.5f, 0.5f);
     private Vector3 originalScale;
     // Bools
-    [SerializeField] private bool isTiny = false;
+    public bool isTiny = false;
 
 
     private void Start()
@@ -58,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         if(isTiny == false)
         {
             tr.localScale = tinyScale;
+            speed *= 1.5f;
             isTiny = true;
         }
         else
