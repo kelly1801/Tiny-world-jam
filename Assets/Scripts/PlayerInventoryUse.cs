@@ -62,9 +62,10 @@ public class PlayerInventoryUse : MonoBehaviour
 
     private void SetItemActive(InventoryItemBase item, bool active)
     {
-        GameObject currentItem = (item as MonoBehaviour).gameObject;
+        GameObject currentItem = item.gameObject;
         currentItem.SetActive(active);
         currentItem.transform.parent = active ? hand.transform : null;
+        currentItem.transform.position = hand.transform.position;
     }
 
 
