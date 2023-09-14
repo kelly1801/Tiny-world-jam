@@ -19,36 +19,4 @@ public class GatheringSystem : MonoBehaviour
         }
     }
 
-    /*
-     * if ( Esta tocando el arbol ){
-     *      Presiona SPACE_BAR para recolectar
-     * }
-     * 
-     * if (! Esta recolectando){
-     *      print ("Started Gathering");
-     *      gatheringObjectSelected = other.transform.gameObject;
-     *      gatheringStartPos = this.transform.position;
-     *      gatheringTimer = 3.0f;
-     *      isGathering = true;
-     * }
-     * 
-     */
-
-    /*
-     * if (isGathering){
-     * 
-     *  if(GatheringTimer > 0){
-     *      GatheringTimer -= Time.deltaTime;
-     *  } else {
-     *      print ("Gathered the item");
-     *      isGathering = false;
-     *      Destroy (gatheringObjectSelected.gameObject);
-     *      }
-     * 
-     * if (this.transform.position != GatheringStartPos){
-     *      isGathering = false;
-     *      print ("Player moved while gathering");
-     *  }
-     * }
-     */
 }

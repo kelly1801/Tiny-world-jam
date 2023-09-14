@@ -1,73 +1,49 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject fire;
-    public Animator rleg;
-    public Animator lleg;
-    public Animator head;
-    public Animator lid;
-    public Animator engine;
-    public float xMov = 1;
-    public float zMov = 1;
-    public float speed = 5.0f;
-    Rigidbody rb;
-    private float angryLevel = 5f;
-    public bool isLidOpen = false;
+    [SerializeField] GameObject fire;
+    [SerializeField] Animator rleg;
+    [SerializeField] Animator lleg;
+    [SerializeField] Animator head;
+    [SerializeField] Animator lid;
+    [SerializeField] Animator engine;
+
+
+    private float angryLevel = 100f;
+    private bool isLidOpen = false;
     public float minDelay = 1f; // Minimum delay in seconds
     public float maxDelay = 5f; // Maximum delay in seconds
+
     private NavMeshAgent enemyAgent;
     public Transform objectivePosition;
 
-    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
         enemyAgent = GetComponent<NavMeshAgent>();
-        Openlegs();
-        Onengine();
-        Walkstart();
+        OpenLegs();
+        TurnOnEngine();
+        StartWalking();
         StartCoroutine(RandomlyToggleLid());
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //OPEN and CLOSE LEGs
-
         enemyAgent.destination = objectivePosition.position;
-    if (angryLevel == 0) {
-            Foldlegs();
-            Stopwalk();
-            Offengine();
-            Stopwalk();
-        }   
+
+        if (angryLevel == 0)
+        {
+            FoldLegs();
+            StopWalking();
+            TurnOffEngine();
+            StopWalking();
+        }
 
     }
 
-    void Openlegs()
-    {
-        rleg.SetBool("open", true);
-        lleg.SetBool("open", true);
-    }
-    void Foldlegs()
-    {
-        rleg.SetBool("open", false);
-        lleg.SetBool("open", false);
-    }
-    void Onengine()
-    {
-        engine.SetBool("ON", true);
-    }
-    void Offengine()
-    {
-        engine.SetBool("ON", false);
-    }
 
-    
     private IEnumerator RandomlyToggleLid()
     {
         while (true)
@@ -85,16 +61,44 @@ public class EnemyController : MonoBehaviour
                 OpenLid();
                 isLidOpen = true;
             }
-
         }
     }
-    void Walkstart()
+
+
+    private void ChangeAngryLevel()
+    {
+        if (isLidOpen)
+        {
+            angryLevel -= 33;
+        } else
+        {
+            angryLevel += 33;
+        }
+       
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("HAPPY");
+            ChangeAngryLevel();
+           
+        }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            ChangeAngryLevel();
+        }
+    }
+
+    //animation methods
+    void StartWalking()
     {
         rleg.SetBool("walk", true);
         lleg.SetBool("walk", true);
-        rb.velocity = new Vector3(xMov * speed, rb.velocity.y, zMov * speed);
     }
-    void Stopwalk()
+
+    void StopWalking()
     {
         rleg.SetBool("walk", false);
         lleg.SetBool("walk", false);
@@ -108,6 +112,28 @@ public class EnemyController : MonoBehaviour
     void CloseLid()
     {
         lid.SetBool("open", false);
+    }
+
+    void TurnOnEngine()
+    {
+        engine.SetBool("ON", true);
+    }
+
+    void TurnOffEngine()
+    {
+        engine.SetBool("ON", false);
+    }
+
+    void OpenLegs()
+    {
+        rleg.SetBool("open", true);
+        lleg.SetBool("open", true);
+    }
+
+    void FoldLegs()
+    {
+        rleg.SetBool("open", false);
+        lleg.SetBool("open", false);
     }
 }
 
