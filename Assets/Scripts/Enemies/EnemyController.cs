@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class CubeRobot : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public GameObject fire;
     public Animator rleg;
