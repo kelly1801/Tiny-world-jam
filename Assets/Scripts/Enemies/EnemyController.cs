@@ -23,9 +23,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         enemyAgent = GetComponent<NavMeshAgent>();
-        OpenLegs();
-        TurnOnEngine();
-        StartWalking();
+        StartEnemy();
         StartCoroutine(RandomlyToggleLid());
     }
 
@@ -35,14 +33,10 @@ public class EnemyController : MonoBehaviour
 
         if (angryLevel == 0)
         {
-            FoldLegs();
-            StopWalking();
-            TurnOffEngine();
-            StopWalking();
+            Pacify();
         }
 
     }
-
 
     private IEnumerator RandomlyToggleLid()
     {
@@ -77,11 +71,25 @@ public class EnemyController : MonoBehaviour
        
     }
 
+    private void StartEnemy()
+    {
+        OpenLegs();
+        TurnOnEngine();
+        StartWalking();
+    }
+    private void Pacify()
+    {
+        FoldLegs();
+        StopWalking();
+        TurnOffEngine();
+        StopWalking();
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("HAPPY");
+   
             ChangeAngryLevel();
            
         }
