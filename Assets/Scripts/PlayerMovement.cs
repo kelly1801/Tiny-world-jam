@@ -130,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Jumping()
     {
-        rb.AddForce(transform.up * jumpForce *  Time.deltaTime);
+        rb.AddForce((transform.up * jumpForce *  Time.deltaTime),ForceMode.Impulse);
     }
 
     void GravityPhysics()
