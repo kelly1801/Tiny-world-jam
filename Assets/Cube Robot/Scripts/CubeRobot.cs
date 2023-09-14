@@ -1,93 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class CubeRobot : MonoBehaviour
 {
     public GameObject fire;
-    public GameObject pointA;
-    public GameObject pointB;
-    public GameObject pointC;
-    public GameObject pointD;
     public Animator rleg;
     public Animator lleg;
     public Animator head;
     public Animator lid;
     public Animator engine;
+    public float xMov = 1;
+    public float zMov = 1;
+    public float speed = 5.0f;
     Rigidbody rb;
-
+    private float angryLevel = 5f;
+    public bool isLidOpen = false;
+    public float minDelay = 1f; // Minimum delay in seconds
+    public float maxDelay = 5f; // Maximum delay in seconds
+    private NavMeshAgent enemyAgent;
+    public Transform objectivePosition;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        enemyAgent = GetComponent<NavMeshAgent>();
+        Openlegs();
+        Onengine();
+        Walkstart();
+        StartCoroutine(RandomlyToggleLid());
     }
 
     // Update is called once per frame
     void Update()
     {
         //OPEN and CLOSE LEGs
-        if (Input.GetKeyDown("j"))
-        {
-            if (rleg.GetBool("open") && lleg.GetBool("open")) { 
-                Foldlegs();
-                Stopwalk();
-            } else
-            {
-                Openlegs();
-            }
-        }
 
-        //ON and OFF ENGINE
-        if (Input.GetKeyDown("k"))
-        {
-            if (engine.GetBool("ON"))
-            {
-                Offengine();
-            } else
-            {
-                Onengine();
-            }
-        }
-
-        //OPEN and CLOSE HEAD
-        if (Input.GetKeyDown("l")){
-            if (head.GetBool("open"))
-            {
-                Closehead();
-            } else
-            {
-                Openhead();
-            }
-        }
-
-        //OPEN and CLOSE BACKLID
-        if (Input.GetKeyDown("m"))
-        {
-            if (lid.GetBool("open"))
-            {
-                Closelid();
-            } else
-            {
-                Openlid();
-            }
-        }
-
-        //MOVEMENT
-        if (Input.GetKeyDown("i"))
-        {
-            if (lleg.GetBool("open"))
-            {
-                if (lleg.GetBool("walk"))
-                {
-                    Stopwalk();
-                }
-                else
-                {
-                    Walkstart();
-                }
-            }
-        }
+        enemyAgent.destination = objectivePosition.position;
+    if (angryLevel == 0) {
+            Foldlegs();
+            Stopwalk();
+            Offengine();
+            Stopwalk();
+        }   
 
     }
 
@@ -109,46 +66,48 @@ public class CubeRobot : MonoBehaviour
     {
         engine.SetBool("ON", false);
     }
-    
-    void EngineOn()
-    {
-        Instantiate(fire, pointA.transform.position, pointA.transform.rotation,pointA.transform);
-        Instantiate(fire, pointB.transform.position, pointB.transform.rotation,pointB.transform);
-        Instantiate(fire, pointC.transform.position, pointC.transform.rotation,pointC.transform);
-        Instantiate(fire, pointD.transform.position, pointD.transform.rotation,pointD.transform);
-    }
 
-    void EngineOff()
+    
+    private IEnumerator RandomlyToggleLid()
     {
-        Destroy(pointA.transform.Find("FireEffect(Clone)").gameObject);
-        Destroy(pointB.transform.Find("FireEffect(Clone)").gameObject);
-        Destroy(pointC.transform.Find("FireEffect(Clone)").gameObject);
-        Destroy(pointD.transform.Find("FireEffect(Clone)").gameObject);
-    }
-    void Openhead()
-    {
-        head.SetBool("open", true);
-    }
-    void Closehead()
-    {
-        head.SetBool("open", false);
+        while (true)
+        {
+            float randomDelay = Random.Range(minDelay, maxDelay);
+            yield return new WaitForSeconds(randomDelay);
+
+            if (isLidOpen)
+            {
+                CloseLid();
+                isLidOpen = false;
+            }
+            else
+            {
+                OpenLid();
+                isLidOpen = true;
+            }
+
+        }
     }
     void Walkstart()
     {
         rleg.SetBool("walk", true);
         lleg.SetBool("walk", true);
+        rb.velocity = new Vector3(xMov * speed, rb.velocity.y, zMov * speed);
     }
     void Stopwalk()
     {
         rleg.SetBool("walk", false);
         lleg.SetBool("walk", false);
     }
-    void Openlid()
+
+    void OpenLid()
     {
         lid.SetBool("open", true);
     }
-    void Closelid()
+
+    void CloseLid()
     {
         lid.SetBool("open", false);
     }
 }
+
