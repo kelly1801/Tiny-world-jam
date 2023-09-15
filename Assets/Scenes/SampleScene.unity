@@ -473,8 +473,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24913257, y: -0.000000008331927, z: 0.000000002143335, w: 0.9684694}
-  m_LocalPosition: {x: 0, y: 452.83, z: 0.31000137}
+  m_LocalRotation: {x: 0.24913257, y: 0.000000008331927, z: -0.000000002143335, w: 0.9684694}
+  m_LocalPosition: {x: -6.44, y: 451.19, z: 2.8100014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -734,7 +734,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 379faef6a95aa440781f3873babe4887, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -893,7 +893,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 379faef6a95aa440781f3873babe4887, type: 3}
     m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
@@ -1141,11 +1141,14 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1541713032}
   dialogueText: {fileID: 558317212}
   dialogue:
-  - Hola!
-  - Soy Michimu
-  - Debes recoger metal, madera y cristal para pasar al siguiente nivel
+  - Hi!
+  - It's me! Michimu!
+  - If you want to continue to the next world...
+  - You must recolect wood, metal and a rare crystal...
+  - Then you will have to put all the materials on the table
+  - And I can teletransport you to your next destination
   contButton: {fileID: 1221191108}
-  wordSpeed: 0.13
+  wordSpeed: 0.01
   playerIsClose: 0
   buttonInstruction: {fileID: 1064917310}
 --- !u!1 &749399069
@@ -1505,8 +1508,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999387033}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24913257, y: -0.000000008331927, z: 0.000000002143335, w: 0.9684694}
-  m_LocalPosition: {x: 0, y: 452.83, z: 0.31000137}
+  m_LocalRotation: {x: 0.24913257, y: 0.000000008331927, z: -0.000000002143335, w: 0.9684694}
+  m_LocalPosition: {x: -6.44, y: 451.19, z: 2.8100014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3247,15 +3250,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225323868261089270, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.44
       objectReference: {fileID: 0}
     - target: {fileID: 4225323868261089270, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 443.8
+      value: 442.16
       objectReference: {fileID: 0}
     - target: {fileID: 4225323868261089270, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.7
+      value: 19.2
       objectReference: {fileID: 0}
     - target: {fileID: 4225323868261089270, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
       propertyPath: m_LocalRotation.w
