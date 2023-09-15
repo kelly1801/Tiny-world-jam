@@ -19,11 +19,15 @@ public class EnemyController : MonoBehaviour
 
     private NavMeshAgent enemyAgent;
     public Transform objectivePosition;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip deniedAccessClip;
+    [SerializeField] private AudioClip grantedAccessClip;
 
     void Start()
     {
         enemyAgent = GetComponent<NavMeshAgent>();
         StartEnemy();
+        audioSource = GetComponent<AudioSource>();
         StartCoroutine(RandomlyToggleLid());
     }
 
@@ -64,9 +68,13 @@ public class EnemyController : MonoBehaviour
         if (isLidOpen)
         {
             angryLevel -= 33;
+            audioSource.PlayOneShot(grantedAccessClip);
+            Debug.Log("Yeeeeeeeeeeeeees");
         } else
         {
             angryLevel += 33;
+            audioSource.PlayOneShot(deniedAccessClip);
+            Debug.Log("Noooooooooooooo");
         }
        
     }
@@ -91,11 +99,8 @@ public class EnemyController : MonoBehaviour
         {
    
             ChangeAngryLevel();
+            Debug.Log("Nooooow");
            
-        }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-            ChangeAngryLevel();
         }
     }
 

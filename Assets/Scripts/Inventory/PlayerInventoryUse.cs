@@ -23,6 +23,8 @@ public class PlayerInventoryUse : MonoBehaviour
     {
         inventory.ItemUsed += Inventory_ItemUsed;
         inventory.ItemRemoved += Inventory_ItemRemoved;
+       
+
     }
 
     private void Update()
@@ -33,16 +35,6 @@ public class PlayerInventoryUse : MonoBehaviour
             InteractWithItem();
         }
 
-        //// Execute action with item
-        //if (mCurrentItem != null && Input.GetMouseButtonDown(0))
-        //{
-        //    // Dont execute click if mouse pointer is over uGUI element
-        //    if (!EventSystem.current.IsPointerOverGameObject())
-        //    {
-        //        // TODO: Logic which action to execute has to come from the particular item
-        //        _animator.SetTrigger("attack_1");
-        //    }
-        //}
     }
 
     #region Inventory
@@ -170,18 +162,7 @@ public class PlayerInventoryUse : MonoBehaviour
                 hud.CloseMessagePanel();
                 mInteractItem = null;
             }
-            //else
-            //{
-            //    if (mInteractItem.ContinueInteract())
-            //    {
-            //        Hud.OpenMessagePanel(mInteractItem);
-            //    }
-            //    else
-            //    {
-            //        Hud.CloseMessagePanel();
-            //        mInteractItem = null;
-            //    }
-            //}
+     
         }
     }
 
