@@ -3290,6 +3290,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8279386841625446930, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
+      propertyPath: isTiny
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8279386841625446930, guid: 1479106f2d0c6634eafccffe3b3fd7ba, type: 3}
       propertyPath: Planet1
       value: 
       objectReference: {fileID: 1806260749}
