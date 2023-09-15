@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleSceneInventory.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/CubeWorld.unity
+    guid: 1c27617a5f70ea841b22967e5b84555a
+  - enabled: 1
+    path: Assets/Scenes/World2.unity
+    guid: 6b3ee81eb4b78084eb8879fb51073301
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: a4e8b8719ae5a964cae7cda8792eb259
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 4ef4520786734b54093a8cc15ef64d97
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: f0470a8140343e749abc1256b3fae015
   m_configObjects: {}
