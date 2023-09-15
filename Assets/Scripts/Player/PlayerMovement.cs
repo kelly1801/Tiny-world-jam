@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         currentTime += Time.deltaTime;
-       // GravityPhysics();
+        GravityPhysics();
 
         if (Input.GetKeyDown(KeyCode.G) && currentTime >= nextTime)
         {
