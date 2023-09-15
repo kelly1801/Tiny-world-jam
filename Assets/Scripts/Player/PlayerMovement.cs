@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // Variables
     private float xMov, zMov;
-    public float speed = 5.0f;
+    public float speed = 20f;
     private float delay = 3.0f;
 
     private float nextTime;

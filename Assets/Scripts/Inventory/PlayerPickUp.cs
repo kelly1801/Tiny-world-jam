@@ -15,14 +15,4 @@ public class PlayerPickUp : MonoBehaviour
             inventory.AddItem(item);
         }
     }
-
-    //private void OnCollisionEnter(Collision hit)
-    //{
-    //    InventoryItemBase item = hit.collider.GetComponent<InventoryItemBase>();
-
-    //    if (item != null)
-    //    {
-    //        inventory.AddItem(item);
-    //    }
-    //}
 }

@@ -2346,7 +2346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Press F to pickup -'
+  m_Text: Press F to pickup the item
 --- !u!1 &1625733912519320
 GameObject:
   m_ObjectHideFlags: 0
