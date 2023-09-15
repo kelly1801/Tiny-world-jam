@@ -10,7 +10,11 @@ public class OxygenSystem : MonoBehaviour
     [SerializeField] private float decreaseLevel = 2.0f;
     private PlayerMovement playerScript;
     private float initialSpeed;
-    private float currentOxygenLevel;
+    [SerializeField] private float currentOxygenLevel;
+ 
+    ///////
+    public UIManager sceneChanger;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +23,8 @@ public class OxygenSystem : MonoBehaviour
         currentOxygenLevel = maxOxygenLevel;
         oxygenBar.SetSliderMax(maxOxygenLevel);
         initialSpeed = playerScript.speed;
+        sceneChanger = GameObject.Find("SceneChanger").GetComponent<UIManager>();
+        
 
     }
     private void Update()
@@ -53,10 +59,9 @@ public class OxygenSystem : MonoBehaviour
             playerScript.speed = Mathf.Max(minSpeed, playerScript.speed - 1);
         }
         
-        if (currentOxygenLevel == 0)
+        if (currentOxygenLevel <= 0)
         {
-            // update this when we have the official game over method
-            Debug.Log("GAME OVEEER");
+            sceneChanger.ChangeScene("LostScene");
         }
         
         else

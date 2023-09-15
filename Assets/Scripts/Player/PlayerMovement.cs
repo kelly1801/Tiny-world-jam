@@ -14,8 +14,11 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 50000.0f;
     public float gradeMultiply;
 
-    private float nextTime;
-    private float currentTime;
+    public float nextTime;
+    public float currentTime;
+
+    public bool isScene1;
+    public bool isScene2;
 
     // Components
     private Rigidbody rb;
@@ -135,8 +138,12 @@ public class PlayerMovement : MonoBehaviour
 
     void GravityPhysics()
     {
-        Physics.gravity = Planet1.transform.position - transform.position;
-        transform.rotation = Quaternion.FromToRotation(transform.up, -Physics.gravity) * transform.rotation;
+        if (isScene1 == true)
+        {
+            Physics.gravity = Planet1.transform.position - transform.position;
+            transform.rotation = Quaternion.FromToRotation(transform.up, -Physics.gravity) * transform.rotation;
+
+        }
     }
 
     private void OnCollisionEnter(Collision other)
