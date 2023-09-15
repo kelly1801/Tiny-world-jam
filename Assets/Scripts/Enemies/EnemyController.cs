@@ -20,6 +20,8 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent enemyAgent;
     public Transform objectivePosition;
     private AudioSource audioSource;
+
+    private int usbCount;
     [SerializeField] private AudioClip deniedAccessClip;
     [SerializeField] private AudioClip grantedAccessClip;
 
@@ -65,17 +67,24 @@ public class EnemyController : MonoBehaviour
 
     private void ChangeAngryLevel()
     {
-        if (isLidOpen)
+        Debug.Log(usbCount);
+
+        if (isLidOpen && usbCount < 3)
         {
             angryLevel -= 33;
             audioSource.PlayOneShot(grantedAccessClip);
-            Debug.Log("Yeeeeeeeeeeeeees");
-        } else
+        }
+
+        else if (usbCount == 3)
+        {
+            Debug.Log("You wooooooooon");
+        }
+        else
         {
             angryLevel += 33;
             audioSource.PlayOneShot(deniedAccessClip);
-            Debug.Log("Noooooooooooooo");
         }
+
        
     }
 
@@ -95,15 +104,22 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("USB"))
         {
    
             ChangeAngryLevel();
-            Debug.Log("Nooooow");
-           
+        
         }
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+       if (other.CompareTag("USB"))
+        {
+            usbCount++;
+            ChangeAngryLevel();
+          
+        }
+    }
     //animation methods
     void StartWalking()
     {

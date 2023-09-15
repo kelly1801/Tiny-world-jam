@@ -73,16 +73,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Jumping();
         }
-
-
-
-
-
-
-
-
-
-
     }
 
     private void FixedUpdate()
@@ -104,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
         if(isTiny == false)
         {
             tr.localScale = tinyScale;
-            speed *= 1.5f;
+            speed *= 3f;
             isTiny = true;
         }
         else
