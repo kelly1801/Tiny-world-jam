@@ -37867,6 +37867,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 345355310}
     - target: {fileID: 2840033395475052242, guid: 183b7b67338936c478b63490c736a409, type: 3}
+      propertyPath: isScene2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840033395475052242, guid: 183b7b67338936c478b63490c736a409, type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 846129320}
