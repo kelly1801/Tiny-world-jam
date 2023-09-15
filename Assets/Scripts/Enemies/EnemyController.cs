@@ -20,6 +20,12 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent enemyAgent;
     public Transform objectivePosition;
     private AudioSource audioSource;
+
+<<<<<<< Updated upstream
+    private int usbCount;
+=======
+    public int usbCount = 0;
+>>>>>>> Stashed changes
     [SerializeField] private AudioClip deniedAccessClip;
     [SerializeField] private AudioClip grantedAccessClip;
 
@@ -65,17 +71,24 @@ public class EnemyController : MonoBehaviour
 
     private void ChangeAngryLevel()
     {
-        if (isLidOpen)
+        Debug.Log(usbCount);
+
+        if (isLidOpen && usbCount < 3)
         {
             angryLevel -= 33;
             audioSource.PlayOneShot(grantedAccessClip);
-            Debug.Log("Yeeeeeeeeeeeeees");
-        } else
+        }
+
+        else if (usbCount == 3)
+        {
+            Debug.Log("You wooooooooon");
+        }
+        else
         {
             angryLevel += 33;
             audioSource.PlayOneShot(deniedAccessClip);
-            Debug.Log("Noooooooooooooo");
         }
+
        
     }
 
@@ -93,17 +106,34 @@ public class EnemyController : MonoBehaviour
         StopWalking();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+<<<<<<< Updated upstream
+        if (collision.gameObject.CompareTag("USB"))
+=======
+        if (other.CompareTag("USB"))
+>>>>>>> Stashed changes
         {
-   
+            usbCount++;
             ChangeAngryLevel();
-            Debug.Log("Nooooow");
-           
+<<<<<<< Updated upstream
+        
         }
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+       if (other.CompareTag("USB"))
+        {
+            usbCount++;
+            ChangeAngryLevel();
+          
+        }
+=======
+            Debug.Log("Nooooow");
+            Debug.Log(usbCount);
+      }
+>>>>>>> Stashed changes
+    }
     //animation methods
     void StartWalking()
     {
