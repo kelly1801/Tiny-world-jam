@@ -57,6 +57,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 536990507686365016, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 683087743461833670, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -77,6 +81,10 @@ PrefabInstance:
       propertyPath: _Inventory
       value: 
       objectReference: {fileID: 7708391786072964369}
+    - target: {fileID: 930597602369662133, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 935603629623285328, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -137,6 +145,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189116414203818835, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238968220298621153, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2252915852592576521, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: _Inventory
       value: 
@@ -145,10 +161,18 @@ PrefabInstance:
       propertyPath: _Inventory
       value: 
       objectReference: {fileID: 7708391786072964369}
+    - target: {fileID: 3203378719998941543, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3432994265912348027, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2964840344944871438}
+    - target: {fileID: 3636692662208916613, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3750459651280999063, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: _Inventory
       value: 
@@ -185,6 +209,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3945109143616529874, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4228273223874339134, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: Inventory
       value: 
@@ -213,6 +241,10 @@ PrefabInstance:
       propertyPath: _Inventory
       value: 
       objectReference: {fileID: 7708391786072964369}
+    - target: {fileID: 5180440938013603190, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5761843988278472441, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -227,6 +259,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5761843988278472441, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6074221731148900490, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6204868320551801043, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
@@ -247,6 +283,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450974035118059128, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6492376185403143452, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
+      propertyPath: m_CullTransparentMesh
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6515609768616395596, guid: 1ab396dbe745092448a7501852cceeb5, type: 3}
