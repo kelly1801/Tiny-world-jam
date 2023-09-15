@@ -21,11 +21,9 @@ public class EnemyController : MonoBehaviour
     public Transform objectivePosition;
     private AudioSource audioSource;
 
-<<<<<<< Updated upstream
-    private int usbCount;
-=======
+
     public int usbCount = 0;
->>>>>>> Stashed changes
+
     [SerializeField] private AudioClip deniedAccessClip;
     [SerializeField] private AudioClip grantedAccessClip;
 
@@ -108,32 +106,15 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-<<<<<<< Updated upstream
-        if (collision.gameObject.CompareTag("USB"))
-=======
+
         if (other.CompareTag("USB"))
->>>>>>> Stashed changes
+
         {
             usbCount++;
             ChangeAngryLevel();
-<<<<<<< Updated upstream
-        
         }
     }
-    private void OnTriggerEnter(Collider other)
-    {
-       if (other.CompareTag("USB"))
-        {
-            usbCount++;
-            ChangeAngryLevel();
-          
-        }
-=======
-            Debug.Log("Nooooow");
-            Debug.Log(usbCount);
-      }
->>>>>>> Stashed changes
-    }
+    
     //animation methods
     void StartWalking()
     {
