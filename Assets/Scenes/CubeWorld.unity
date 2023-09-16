@@ -346,6 +346,10 @@ PrefabInstance:
       value: SmallRock_04 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -1022,6 +1026,10 @@ PrefabInstance:
       value: SmallRock_03 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -1098,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1638,6 +1650,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2449,6 +2465,10 @@ PrefabInstance:
       value: SmallRock_04 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -2505,6 +2525,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3420,6 +3444,10 @@ PrefabInstance:
       value: RockFormation_07 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -3497,6 +3525,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3907,6 +3939,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -4211,6 +4247,10 @@ PrefabInstance:
       value: BigRock_02 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -4452,6 +4492,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5014,6 +5058,10 @@ PrefabInstance:
       value: SmallRock_01 (26)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -5170,6 +5218,10 @@ PrefabInstance:
       value: SmallRock_01 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -5318,6 +5370,10 @@ PrefabInstance:
       value: BigRock_02 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -5391,6 +5447,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -5912,6 +5972,10 @@ PrefabInstance:
       value: SmallRock_03 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -6064,6 +6128,10 @@ PrefabInstance:
       value: RockFormation_07 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -6144,6 +6212,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_Name
       value: Terrain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6346,6 +6418,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7016,6 +7092,10 @@ PrefabInstance:
       value: RockFormation_06 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -7388,6 +7468,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8200,6 +8284,10 @@ PrefabInstance:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_Name
       value: SmallRock_04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9034,6 +9122,10 @@ PrefabInstance:
       value: BigRock_01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -9695,6 +9787,10 @@ PrefabInstance:
       value: RockFormation_05 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -10111,6 +10207,10 @@ PrefabInstance:
       value: SmallRock_03 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -10441,6 +10541,10 @@ PrefabInstance:
       value: SmallRock_03 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -10588,7 +10692,7 @@ GameObject:
   - component: {fileID: 325418806}
   m_Layer: 0
   m_Name: NavMesh Surface
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10637,7 +10741,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 630868246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &325648643
 PrefabInstance:
@@ -11220,6 +11324,10 @@ PrefabInstance:
       value: RockFormation_05 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -11356,6 +11464,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1866083037941774, guid: 7fe8fb23b001d994f92ccc500f281cf8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866083037941774, guid: 7fe8fb23b001d994f92ccc500f281cf8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -11413,6 +11525,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -11650,6 +11766,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12280,6 +12400,10 @@ PrefabInstance:
       value: BigRock_02 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -12672,6 +12796,10 @@ PrefabInstance:
       value: SmallRock_04 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -12752,6 +12880,10 @@ PrefabInstance:
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_Name
       value: BigRock_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12876,6 +13008,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13040,6 +13176,10 @@ PrefabInstance:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_Name
       value: SmallRock_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13208,6 +13348,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -13264,6 +13408,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13604,6 +13752,10 @@ PrefabInstance:
       value: SmallRock_01 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -13686,6 +13838,10 @@ PrefabInstance:
       value: BigRock_02 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -13766,6 +13922,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13976,6 +14136,10 @@ PrefabInstance:
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_Name
       value: BigRock_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14526,6 +14690,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1461695383}
     m_Modifications:
     - target: {fileID: 1660744347930702, guid: f9b070a0df4bf2941a858f1c29591401, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660744347930702, guid: f9b070a0df4bf2941a858f1c29591401, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -14772,6 +14940,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15287,6 +15459,10 @@ PrefabInstance:
       value: RockFormation_07 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -15356,6 +15532,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -16025,6 +16205,10 @@ PrefabInstance:
       value: RockFormation_02 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1866083037941774, guid: 7fe8fb23b001d994f92ccc500f281cf8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866083037941774, guid: 7fe8fb23b001d994f92ccc500f281cf8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -16163,6 +16347,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16536,6 +16724,10 @@ PrefabInstance:
       value: SmallRock_04 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -16616,6 +16808,10 @@ PrefabInstance:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_Name
       value: SmallRock_04 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17146,6 +17342,10 @@ PrefabInstance:
       value: SmallRock_03 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -17576,6 +17776,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18487,6 +18691,10 @@ PrefabInstance:
       value: SmallRock_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -18679,6 +18887,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19358,6 +19570,10 @@ PrefabInstance:
     - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
       propertyPath: m_Name
       value: RockFormation_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20891,7 +21107,7 @@ GameObject:
   - component: {fileID: 630868246}
   m_Layer: 0
   m_Name: Environment
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20909,6 +21125,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 325418807}
   - {fileID: 2124370540}
   - {fileID: 896438375}
   - {fileID: 2124763364}
@@ -20918,6 +21135,7 @@ Transform:
   - {fileID: 112149216}
   - {fileID: 1814045953}
   - {fileID: 538340838}
+  - {fileID: 1625528317}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &640416238
@@ -21164,6 +21382,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21706,6 +21928,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -21762,6 +21988,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21844,6 +22074,10 @@ PrefabInstance:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_Name
       value: SmallRock_04 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22542,6 +22776,10 @@ PrefabInstance:
       value: RockFormation_07 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -22957,6 +23195,10 @@ PrefabInstance:
       value: RockFormation_01 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -23095,6 +23337,10 @@ PrefabInstance:
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_Name
       value: SmallRock_04 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23399,6 +23645,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24907,6 +25157,10 @@ PrefabInstance:
       value: Terrain (8)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -25391,6 +25645,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26121,6 +26379,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27337,6 +27599,10 @@ PrefabInstance:
       value: BigRock_02 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -27563,6 +27829,10 @@ PrefabInstance:
       value: BigRock_01 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -27693,6 +27963,10 @@ PrefabInstance:
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_Name
       value: RockFormation_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28805,6 +29079,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5593195909017292627, guid: 4be7a99d429a19840a38df28f88a8680, type: 3}
       insertIndex: -1
       addedObject: {fileID: 892663293}
+    - targetCorrespondingSourceObject: {fileID: 5593195909017292627, guid: 4be7a99d429a19840a38df28f88a8680, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 892663297}
   m_SourcePrefab: {fileID: 100100000, guid: 4be7a99d429a19840a38df28f88a8680, type: 3}
 --- !u!4 &892663291 stripped
 Transform:
@@ -28853,14 +29130,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 12
   jumpForce: 80000
-  gradeMultiply: 0
-  nextTime: 0
-  currentTime: 0
+  fallForce: 700
   isScene1: 0
   isScene2: 1
   isTiny: 0
   isGrounded: 0
-  pauseMenu: {fileID: 0}
+  pauseMenu: {fileID: 1281367990}
   Planet1: {fileID: 0}
 --- !u!114 &892663295
 MonoBehaviour:
@@ -28904,6 +29179,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &892663297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892663292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78faf765a016edd4d966a4db93b715fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxOxygenLevel: 100
+  oxygenBar: {fileID: 2116536609}
+  decreaseLevel: 2
+  currentOxygenLevel: 0
+  sceneChanger: {fileID: 878584960}
 --- !u!1 &896438374
 GameObject:
   m_ObjectHideFlags: 0
@@ -28915,7 +29207,7 @@ GameObject:
   - component: {fileID: 896438375}
   m_Layer: 0
   m_Name: Flora
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31108,6 +31400,10 @@ PrefabInstance:
       value: BigRock_02 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -31374,6 +31670,10 @@ PrefabInstance:
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_Name
       value: SmallRock_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32464,6 +32764,10 @@ PrefabInstance:
       value: BigRock_02 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -32809,6 +33113,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -33584,6 +33892,10 @@ PrefabInstance:
       value: SmalRoots_01 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -33664,6 +33976,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34152,6 +34468,10 @@ PrefabInstance:
       value: SmallRock_03 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -34296,6 +34616,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -34368,6 +34692,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34844,6 +35172,10 @@ PrefabInstance:
       value: SmallRock_03 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -35056,6 +35388,10 @@ PrefabInstance:
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_Name
       value: RockFormation_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35384,6 +35720,10 @@ PrefabInstance:
       value: RockFormation_01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -35676,6 +36016,10 @@ PrefabInstance:
       value: RockFormation_07 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -35756,6 +36100,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35885,6 +36233,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -36026,6 +36378,10 @@ PrefabInstance:
       value: SmallRock_04 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -36102,6 +36458,10 @@ PrefabInstance:
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_Name
       value: RockFormation_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36718,6 +37078,10 @@ PrefabInstance:
       value: SmallRock_01 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -37170,6 +37534,10 @@ PrefabInstance:
       value: RockFormation_04 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -37393,6 +37761,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37884,7 +38256,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 7.94, y: 8, z: 8.01}
-  m_Center: {x: -2.98, y: 2.34, z: 1.45}
+  m_Center: {x: -2.98, y: 2.34, z: -0.23}
 --- !u!195 &1194276426
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -37894,7 +38266,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1194276422}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 8
+  m_Radius: 5
   m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -37903,8 +38275,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 18.1
-  m_BaseOffset: 8.94
+  m_Height: 15
+  m_BaseOffset: 4.7
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &1194276427
@@ -37944,7 +38316,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bc46f1df9bd1c4c98b17b526b9b27279, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -38130,6 +38502,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -38198,6 +38574,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38412,6 +38792,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38896,6 +39280,10 @@ PrefabInstance:
       value: SmallRock_02 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -39184,6 +39572,10 @@ PrefabInstance:
       value: BigRock_02 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -39256,6 +39648,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39396,6 +39792,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39726,6 +40126,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40301,6 +40705,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3999155644089162650, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 878584960}
+    - target: {fileID: 3999155644089162650, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801847273919321810, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 892663294}
+    - target: {fileID: 6801847273919321810, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactiveMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 7006560223164764897, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -40313,14 +40733,40 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 184
       objectReference: {fileID: 0}
+    - target: {fileID: 8909304826170268201, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909304826170268201, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909304826170268201, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 892663292}
+    - target: {fileID: 8909304826170268201, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909304826170268201, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6583420028251156219, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1690413640095416508, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
       insertIndex: 1
       addedObject: {fileID: 1951481112}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+--- !u!1 &1281367990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588599578231548937, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+  m_PrefabInstance: {fileID: 1281367989}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1285623123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40611,6 +41057,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -40899,6 +41349,10 @@ PrefabInstance:
       value: SmallRock_02 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -40972,6 +41426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -41338,6 +41796,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42118,6 +42580,10 @@ PrefabInstance:
       value: SmallRock_03 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -42174,6 +42640,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42822,6 +43292,10 @@ PrefabInstance:
       value: SmallRock_02 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -42978,6 +43452,10 @@ PrefabInstance:
       value: SmalRoots_01 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -43058,6 +43536,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -43656,6 +44138,10 @@ PrefabInstance:
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_Name
       value: BigRock_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -44524,6 +45010,10 @@ PrefabInstance:
       value: BigRock_02 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -44652,6 +45142,10 @@ PrefabInstance:
       value: SmallRock_01 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -44732,6 +45226,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45386,6 +45884,10 @@ PrefabInstance:
       value: SmallRock_03 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -45592,6 +46094,10 @@ PrefabInstance:
       value: BigRock_02 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -45674,6 +46180,10 @@ PrefabInstance:
       value: Terrain (2)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -45738,6 +46248,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45886,6 +46400,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -46090,6 +46608,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -46260,7 +46782,7 @@ GameObject:
   - component: {fileID: 1461695383}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46416,6 +46938,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47585,6 +48111,10 @@ PrefabInstance:
       value: SmallRock_03 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -47735,6 +48265,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47955,6 +48489,10 @@ PrefabInstance:
       value: SmallRock_01 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -48037,6 +48575,10 @@ PrefabInstance:
       value: SmallRock_01 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -48117,6 +48659,10 @@ PrefabInstance:
     - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
       propertyPath: m_Name
       value: SmalRoots_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1649925079310092, guid: 736e50b5fd21b1240b02444bc774d83e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -48947,6 +49493,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -49263,6 +49813,10 @@ PrefabInstance:
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_Name
       value: RockFormation_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49676,6 +50230,10 @@ PrefabInstance:
       value: SmallRock_01 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -49824,6 +50382,7 @@ GameObject:
   - component: {fileID: 1587774406}
   - component: {fileID: 1587774407}
   - component: {fileID: 1587774408}
+  - component: {fileID: 1587774409}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -49989,7 +50548,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -50071,6 +50630,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &1587774409
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587774402}
+  m_Enabled: 1
 --- !u!1001 &1591073808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50082,6 +50649,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50863,6 +51434,10 @@ PrefabInstance:
       value: RockFormation_07 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -51334,6 +51909,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
     - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721112587459618, guid: 2ed80e4af24778742a16837f6b64d172, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -51568,7 +52147,7 @@ Transform:
   m_LocalScale: {x: 1000, y: 500, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 630868246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1626466237
 PrefabInstance:
@@ -51791,6 +52370,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52067,6 +52650,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -52352,6 +52939,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -53076,6 +53667,10 @@ PrefabInstance:
       value: RockFormation_07 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -53227,6 +53822,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1347342049439634, guid: 2a3d0937e42cd1141abe41a3a1279e62, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -53747,6 +54346,10 @@ PrefabInstance:
       value: SmallRock_03 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -53827,6 +54430,10 @@ PrefabInstance:
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_Name
       value: RockFormation_06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54331,6 +54938,10 @@ PrefabInstance:
       value: RockFormation_05 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -54674,7 +55285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734482127}
   m_Layer: 0
-  m_Name: Parts
+  m_Name: Characters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55061,6 +55672,10 @@ PrefabInstance:
       value: BigRock_01 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -55285,6 +55900,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -55513,6 +56132,10 @@ PrefabInstance:
       value: SmallRock_04 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -55721,6 +56344,10 @@ PrefabInstance:
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_Name
       value: RockFormation_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56013,6 +56640,10 @@ PrefabInstance:
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_Name
       value: RockFormation_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56357,6 +56988,10 @@ PrefabInstance:
       value: RockFormation_07 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -56577,6 +57212,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -56925,6 +57564,10 @@ PrefabInstance:
       value: Terrain (3)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -56989,6 +57632,10 @@ PrefabInstance:
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_Name
       value: RockFormation_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1012599138547442, guid: 8fcd235d2094ac44094696a898fa6a10, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -57560,6 +58207,10 @@ PrefabInstance:
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_Name
       value: RockFormation_06 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -58200,6 +58851,10 @@ PrefabInstance:
       value: SmallRock_03 (22)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -58280,6 +58935,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -58878,6 +59537,10 @@ PrefabInstance:
       value: Terrain (6)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -59282,6 +59945,10 @@ PrefabInstance:
       value: BigRock_02 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -59347,6 +60014,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124370540}
     m_Modifications:
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -59562,6 +60233,10 @@ PrefabInstance:
       value: BigRock_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -59702,6 +60377,10 @@ PrefabInstance:
       value: Terrain (4)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -59770,6 +60449,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60041,6 +60724,10 @@ PrefabInstance:
       value: SmallRock_01 (32)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -60121,6 +60808,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_Name
       value: Terrain (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60785,6 +61476,10 @@ PrefabInstance:
       value: RockFormation_03 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -60857,6 +61552,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60939,6 +61638,10 @@ PrefabInstance:
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_Name
       value: BigRock_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -61385,6 +62088,10 @@ PrefabInstance:
       value: BigRock_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203660441109236, guid: 07aab42f1eca6ef4887a7fa93ad8282b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -61465,6 +62172,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -62003,6 +62714,10 @@ PrefabInstance:
       value: SmallRock_04 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -62167,6 +62882,10 @@ PrefabInstance:
       value: Terrain (7)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 587c5ef11f1639140b1ec4c74d6b908e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -62231,6 +62950,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -62387,6 +63110,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -63356,6 +64083,10 @@ PrefabInstance:
       value: RockFormation_06 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682417958822914, guid: 2e603bc31b2f54a41a14216f94f897cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -64078,6 +64809,10 @@ PrefabInstance:
       value: SmallRock_04 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814914059941812, guid: c7c726d17347cd44a8b6a3d3600f37b9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -64364,6 +65099,10 @@ PrefabInstance:
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_Name
       value: RockFormation_07 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -64704,6 +65443,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1194276423}
     m_Modifications:
     - target: {fileID: 5243983308537423141, guid: e61644cda34b87546aebd9be31db1457, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243983308537423141, guid: e61644cda34b87546aebd9be31db1457, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -64713,7 +65456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5243983308537423141, guid: e61644cda34b87546aebd9be31db1457, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 5243983308537423141, guid: e61644cda34b87546aebd9be31db1457, type: 3}
       propertyPath: m_LocalRotation.w
@@ -64771,6 +65514,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -65435,6 +66182,10 @@ PrefabInstance:
       value: RockFormation_07 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -65515,6 +66266,10 @@ PrefabInstance:
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_Name
       value: BigRock_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1111393872374448, guid: b8afcb16b9632e344899c70492bcf933, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -65740,6 +66495,10 @@ PrefabInstance:
       value: SmallRock_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -65860,6 +66619,10 @@ PrefabInstance:
       value: SmallRock_03 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -65940,6 +66703,10 @@ PrefabInstance:
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_Name
       value: SmallRock_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -66247,6 +67014,10 @@ PrefabInstance:
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_Name
       value: SmallRock_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -66890,6 +67661,10 @@ PrefabInstance:
       value: RockFormation_07 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209769021331456, guid: 715b325acd44dfd42a1b236411075c6f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -67154,6 +67929,10 @@ PrefabInstance:
       value: SmallRock_02 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786647392387880, guid: 21006dba7e3f90042b36bf9b5f6af51e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -67362,6 +68141,10 @@ PrefabInstance:
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_Name
       value: RockFormation_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1173167114142786, guid: a07a929fcb59ef44aa0b84e31eb0078e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -67943,6 +68726,10 @@ PrefabInstance:
       value: SmallRock_01 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786732080692216, guid: 46aa8b6d013691a43a624b2200d4519a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -68273,6 +69060,10 @@ PrefabInstance:
       value: SmallRock_03 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031463511188670, guid: a839d12ebeb473947918f159f916fef3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -68400,6 +69191,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4596295666378946, guid: 8b7b6b45c88df22498a9e20b7d7a34de, type: 3}
   m_PrefabInstance: {fileID: 2116048635}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2116536609 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3206945717687833393, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+  m_PrefabInstance: {fileID: 1281367989}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b9bbfd58ec6d844820bdbcfc858a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2116958662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68617,7 +69419,7 @@ GameObject:
   - component: {fileID: 2124370540}
   m_Layer: 0
   m_Name: Rocks
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68815,6 +69617,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 630868246}
     m_Modifications:
+    - target: {fileID: 1751546392587164, guid: 3aa58df061019574989fc0e803b8b563, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 1751546392587164, guid: 3aa58df061019574989fc0e803b8b563, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -69927,14 +70733,12 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 878584959}
   - {fileID: 2090902413}
   - {fileID: 753164591}
-  - {fileID: 630868246}
   - {fileID: 703397542}
   - {fileID: 1734482127}
   - {fileID: 641613124}
   - {fileID: 861632954}
   - {fileID: 4570128877138527896}
-  - {fileID: 325418807}
-  - {fileID: 1625528317}
+  - {fileID: 878584959}
+  - {fileID: 630868246}

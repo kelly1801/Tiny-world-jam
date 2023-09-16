@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
-using Unity.PlasticSCM.Editor.WebApi;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,10 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 20f;
     private float delay = 3.0f;
     public float jumpForce = 50000.0f;
-    public float gradeMultiply;
+    public float fallForce = 40000.0f;
+    private float gradeMultiply;
 
-    public float nextTime;
-    public float currentTime;
+    private float nextTime;
+    private float currentTime;
 
     public bool isScene1;
     public bool isScene2;
@@ -76,6 +75,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Jumping();
         }
+        if (Input.GetKeyDown(KeyCode.X) && isGrounded == false)
+        {
+            pushDown();
+        }
     }
 
     private void FixedUpdate()
@@ -103,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             tr.localScale = originalScale;
+            speed /= 3f;
             isTiny = false;
         }
     }
@@ -134,6 +138,10 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.FromToRotation(transform.up, -Physics.gravity) * transform.rotation;
 
         }
+    }
+    void pushDown()
+    {
+        rb.AddForce(Vector3.down * fallForce, ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision other)

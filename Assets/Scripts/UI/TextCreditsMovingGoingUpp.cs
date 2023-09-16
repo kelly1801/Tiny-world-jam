@@ -21,7 +21,7 @@ public class TextCreditsMovingGoingUpp : MonoBehaviour
     void Update()
     {
         if(isWinningTextDestroyed == true) transform.Translate(Vector3.up * speed * Time.deltaTime);
-        if (transform.position.y >= 680.0f) Destroy(this.gameObject);
+        if (transform.position.y >= 960.0f) Destroy(this.gameObject);
     }
 
     private void OnDestroy()
