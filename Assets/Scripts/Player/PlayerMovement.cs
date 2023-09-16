@@ -12,10 +12,10 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 20f;
     private float delay = 3.0f;
     public float jumpForce = 50000.0f;
-    public float gradeMultiply;
+    private float gradeMultiply;
 
-    public float nextTime;
-    public float currentTime;
+    private float nextTime;
+    private float currentTime;
 
     public bool isScene1;
     public bool isScene2;
@@ -103,6 +103,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             tr.localScale = originalScale;
+            speed /= 3f;
             isTiny = false;
         }
     }

@@ -276,7 +276,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "FINAL \n\n\nAfter all this adventure\nMega Malacius was able to return
-    \nto his home, was able to discover\nand save the universe, after a few \nyears,
+    \nto his home, he was able to discover\nand save the universe, after a few \nyears,
     he spent the time keeping the\nuniverse safe with his knowledge.\n\n"
 --- !u!222 &313510082
 CanvasRenderer:

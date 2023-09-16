@@ -28853,14 +28853,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 12
   jumpForce: 80000
-  gradeMultiply: 0
-  nextTime: 0
-  currentTime: 0
   isScene1: 0
   isScene2: 1
   isTiny: 0
   isGrounded: 0
-  pauseMenu: {fileID: 0}
+  pauseMenu: {fileID: 1281367990}
   Planet1: {fileID: 0}
 --- !u!114 &892663295
 MonoBehaviour:
@@ -40301,6 +40298,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3999155644089162650, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 878584960}
+    - target: {fileID: 3999155644089162650, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801847273919321810, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 892663294}
+    - target: {fileID: 6801847273919321810, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactiveMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 7006560223164764897, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -40314,13 +40327,19 @@ PrefabInstance:
       value: 184
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6583420028251156219, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1690413640095416508, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
       insertIndex: 1
       addedObject: {fileID: 1951481112}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+--- !u!1 &1281367990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3588599578231548937, guid: eb125f2b17d3f7c4fb9fbfc4dbc3515e, type: 3}
+  m_PrefabInstance: {fileID: 1281367989}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1285623123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49824,6 +49843,7 @@ GameObject:
   - component: {fileID: 1587774406}
   - component: {fileID: 1587774407}
   - component: {fileID: 1587774408}
+  - component: {fileID: 1587774409}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -50071,6 +50091,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &1587774409
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587774402}
+  m_Enabled: 1
 --- !u!1001 &1591073808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54674,7 +54702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734482127}
   m_Layer: 0
-  m_Name: Parts
+  m_Name: Characters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
