@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemCount: 0
-  nameScene: CubeWorld
+  nameScene: World2
   winPanel: {fileID: 0}
 --- !u!54 &4134338979816464084
 Rigidbody:
