@@ -48,6 +48,10 @@ public class BoxWin : MonoBehaviour
         {
             itemCount++;
         }
+        if (other.gameObject.name == "Gear")
+        {
+            itemCount++;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -65,6 +69,10 @@ public class BoxWin : MonoBehaviour
             itemCount--;
         }
         if (other.gameObject.name == "Picker")
+        {
+            itemCount--;
+        }
+        if (other.gameObject.name == "Gear")
         {
             itemCount--;
         }
