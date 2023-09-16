@@ -37860,7 +37860,7 @@ MonoBehaviour:
   engine: {fileID: 1582419247}
   minDelay: 1
   maxDelay: 5
-  objectivePosition: {fileID: 0}
+  objectivePosition: {fileID: 892663291}
   usbCount: 0
   deniedAccessClip: {fileID: 8300000, guid: 15880c0bb8e8348d9bbd81e4e8c43244, type: 3}
   grantedAccessClip: {fileID: 8300000, guid: bc46f1df9bd1c4c98b17b526b9b27279, type: 3}
@@ -37892,7 +37892,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194276422}
-  m_Enabled: 0
+  m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 8
   m_Speed: 5
