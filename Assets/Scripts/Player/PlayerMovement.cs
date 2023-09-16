@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 20f;
     private float delay = 3.0f;
     public float jumpForce = 50000.0f;
+    public float fallForce = 40000.0f;
     private float gradeMultiply;
 
     private float nextTime;
@@ -76,6 +77,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Jumping();
         }
+        if (Input.GetKeyDown(KeyCode.X) && isGrounded == false)
+        {
+            pushDown();
+        }
     }
 
     private void FixedUpdate()
@@ -135,6 +140,10 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.FromToRotation(transform.up, -Physics.gravity) * transform.rotation;
 
         }
+    }
+    void pushDown()
+    {
+        rb.AddForce(Vector3.down * fallForce, ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision other)
