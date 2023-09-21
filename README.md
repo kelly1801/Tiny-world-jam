@@ -7,7 +7,6 @@
 - [Gameplay Mechanics](#gameplay-mechanics)
 - [Characters](#characters)
 - [Miniature Worlds](#miniature-worlds)
-- [Multiplayer Modes](#multiplayer-modes)
 - [Victory Conditions](#victory-conditions)
 - [Development](#development)
 - [Community and Support](#community-and-support)
